@@ -10,25 +10,39 @@ h1 {
     display: inline;
     position:relative;
     padding: 30px;
-    font-size:50px
+    font-size:50px;
+    color: #66BFBF
 }
 p{
-    font-size:20px;
+    font-size:1em;
     margin-top:0;
 }
 
 h2 {
     font-family: sacramento;
-    font-size:20px
+    font-size:2.5em;
+    font-weight:normal
 }
 
 h3 {
     font-family: sacramento;
+    color:#11999E;
+    font-size:1.7rem;
+}
+
+a {
+    color:#11999E;
 }
 
 /******** CLASSES *********/
+.title{
+    font-family: fantasy, verdana;
+    color: #66BFBF;
+    font-size:20px
+}
+
 .top-container{
-    background-color: #E4F9F5
+    background-color: #E4F9F5;
 }
 
 .pic1 {
@@ -51,8 +65,43 @@ h3 {
 
 .middle-container{
     font-family: verdana;
+    text-align: center;
+}
+.skills{
+    width:50%;
+    margin:50px auto 50px auto;
+    text-align:left;
+    line-height:2
 }
 
 .bottom-container{
 }
 
+.italia{
+    width:25%;
+    float: left;
+    margin-right:20px;
+}
+
+.video{
+    width:50%
+}
+
+.title2{
+    text-align:center;
+}
+
+.text-to-be-cleared-l{
+    clear:left;
+}
+
+.text-to-be-cleared-r{
+    clear:right;
+}
+
+.ingredienti1 {
+    margin-top: 20px;
+    width:40%;
+    float:right;
+    margin-left:20px;
+}
