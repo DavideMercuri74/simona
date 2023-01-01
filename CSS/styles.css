@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: fantasy, verdana;
+    color:#40514E;
 }
 
 h1 {
@@ -16,22 +17,29 @@ h1 {
 p{
     font-size:1em;
     margin-top:0;
+    line-height:2
 }
 
 h2 {
     font-family: sacramento;
     font-size:2.5em;
-    font-weight:normal
+    font-weight:normal;
+    padding-bottom:0px;
 }
 
 h3 {
     font-family: sacramento;
     color:#11999E;
-    font-size:1.7rem;
+    font-size:2rem;
 }
 
 a {
     color:#11999E;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#EAF6F6;
 }
 
 /******** CLASSES *********/
@@ -64,17 +72,20 @@ a {
 }
 
 .middle-container{
+    width:60%;
+    margin:50px auto;
     font-family: verdana;
     text-align: center;
 }
 .skills{
-    width:50%;
-    margin:50px auto 50px auto;
+
     text-align:left;
     line-height:2
 }
 
 .bottom-container{
+    background-color: #66BFBF;
+    padding:50px 0 20px;
 }
 
 .italia{
@@ -104,4 +115,55 @@ a {
     width:40%;
     float:right;
     margin-left:20px;
+}
+
+.hr-line{
+    width:20%;
+    border: dotted 6px #EAF6F6;
+    margin: 50px auto;
+    border-bottom:none;
+}
+
+.contact-me{
+    margin:auto
+    align:center;
+}
+
+.footer-link{
+     text-color:#11999E;
+     font-family: verdana;
+     font-size:20px;
+     margin:auto 25px;
+}
+
+.btn {
+  background: #18a87f;
+  background-image: -webkit-linear-gradient(top, #18a87f, #2bb8a5);
+  background-image: -moz-linear-gradient(top, #18a87f, #2bb8a5);
+  background-image: -ms-linear-gradient(top, #18a87f, #2bb8a5);
+  background-image: -o-linear-gradient(top, #18a87f, #2bb8a5);
+  background-image: linear-gradient(to bottom, #18a87f, #2bb8a5);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #239478;
+  background-image: -webkit-linear-gradient(top, #239478, #2e9c82);
+  background-image: -moz-linear-gradient(top, #239478, #2e9c82);
+  background-image: -ms-linear-gradient(top, #239478, #2e9c82);
+  background-image: -o-linear-gradient(top, #239478, #2e9c82);
+  background-image: linear-gradient(to bottom, #239478, #2e9c82);
+  text-decoration: none;
+}
+
+.creator{
+    font-size: 12px;
+    font-family:arial
 }
